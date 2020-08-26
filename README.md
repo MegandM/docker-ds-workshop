@@ -1,16 +1,19 @@
-# dashboard
+# Dashboard
 
-Launch a dashboard inside a container
+This examples shows how to run a pair of dashboards in docker.
 
-Build with
-```
-docker build -t dashboard
-```
+Build with:
+`docker-compose build`
 
-Run the container with:
+Run with:
+`docker-compose run`
 
-```
-docker run dashboard
-```
+Copy paste the dashboard url from the command line into your browser.
 
-This will run the dashboard on http://localhost:8080/
+Stop wwith:
+`docker-compose stop <container_id>`
+
+# Volumes
+
+The following volumes are shared between the host and container
+- `data`: read only volume which contains input data 
