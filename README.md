@@ -1,6 +1,6 @@
 # Dashboard
 
-This examples shows how to run a pair of dashboards in docker.
+These examples show how to run a pair of dashboards in docker.
 
 Build with:
 `docker-compose build`
