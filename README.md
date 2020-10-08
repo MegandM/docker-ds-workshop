@@ -10,7 +10,7 @@ Run with:
 
 Copy paste the dashboard url from the command line into your browser.
 
-Stop wwith:
+Stop with:
 `docker-compose stop <container_id>`
 
 # Volumes
